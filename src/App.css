@@ -1,38 +1,362 @@
-.App {
+.Header{
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  top: 10%;
   color: white;
+  text-align: center;
+  font-size: 80px;
+  font-weight: bold;
+  background-color: #df9977;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
 }
 
-.App-link {
-  color: #61dafb;
+#strongSub {
+  background-color:#f8d6b0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+#divSide {
+  margin-left: auto;
+}
+
+#background {
+  background-color: lightgoldenrodyellow;
+}
+
+#tableBackground {
+  background-color: white;
+}
+
+#thBackground {
+  background-color: #eee;
+}
+
+#borderTopLeft {
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+#borderBottomRight {
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+#borderTopRight {
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+#borderBottomLeft {
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+#bodyBack{
+  margin-left: 12px;
+}
+
+/* 위쪽은 사용된 CSS */
+
+
+
+
+.TopButtonRow{
+  float: none;
+  margin:100 auto;
+}
+
+.TopButton{
+  float: center;
+  margin:0 auto;
+}
+
+h2 {
+  background-color: #f8d6b0;
+}
+
+.Teams {
+  margin: auto;
+  border-collapse: separate;
+  border-spacing: 0;
+  text-align: center;
+  line-height: 1.5;
+  border-top: 50px solid #f8d6b0;
+  border-left: 1px solid #ccc;
+  margin: 20px 10px;
+  font-size: 26px;
+  
+}
+
+
+
+.Teams caption {
+      width: 150px;
+      padding: 10px;
+      font-weight: bold;
+      vertical-align: top;
+      text-align: center;
+      border-right: 0px;
+      border-bottom: 0px;
+      border-top: 0px;
+      border-left: 0px;
+      background: #f4a971;
+      font-size: 34px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .Teams th {
+      height: 40px;
+      width: 150px;
+      padding: 10px;
+      font-weight: bold;
+      border-right: 0px solid #ccc;
+      border-bottom: 1px solid #ccc;
+      border-top: 1px solid #fff;
+      border-left: 0px solid #fff;
+      background: #eee;
   }
+
+  .Teams td {
+      height: 80px;
+      background-color: white;
+      width: 350px;
+      padding: 10px;
+      border-right: 0px solid #ccc;
+      border-bottom: 1px solid #ccc;
+      font-size: 30px
+  }
+
+.analysis {
+  margin: auto;
+  font-size: 26px;
+  border-collapse: separate;
+  border-spacing: 0;
+  text-align: center;
+  line-height: 1.5;
+  border-top: 50px solid #f8d6b0;
+  border-left: 0px solid #f8d6b0;
+  margin: 20px 10px;
+}
+
+  .analysis caption {
+      width: 150px;
+      padding: 10px;
+      font-weight: bold;
+      vertical-align: top;
+      text-align: center;
+      border-right: 0px;
+      border-bottom: 0px;
+      border-top: 0px;
+      border-left: 0px;
+      background: #f4a971;
+      font-size: 34px;
+  }
+
+  .analysis th {
+      height: 40px;
+      width: 150px;
+      padding: 10px;
+      font-weight: bold;
+      border-right: 0px solid #ccc;
+      border-bottom: 1px solid #ccc;
+      border-top: 1px solid #fff;
+      border-left: 1px solid #fff;
+      background: #eee;
+  }
+
+  .analysis td {
+      height: 80px;
+      background-color: white;
+      width: 350px;
+      padding: 10px;
+      border-right: 1px solid #ccc;
+      border-bottom: 1px solid #ccc;
+      font-size: 30px
+  }
+
+.Rankings {
+  margin: auto;
+  border-collapse: separate;
+  border-spacing: 0;
+  text-align: center;
+  line-height: 1.5;
+  border-top: 50px solid #f8d6b0;
+  border-left: 1px solid #ccc;
+  margin: 20px 10px;
+  font-size: 26px;
+}
+
+  .Rankings th {
+      height: 40px;
+      width: 200px;
+      padding: 10px;
+      font-weight: bold;
+      vertical-align: center;
+      border-right: 1px solid #ccc;
+      border-bottom: 1px solid #ccc;
+      border-top: 1px solid #fff;
+      border-left: 1px solid #fff;
+      background: #eee;
+  }
+
+  .Rankings caption {
+      width: 150px;
+      padding: 10px;
+      font-weight: bold;
+      text-align: center;
+      border-right: 0px;
+      border-bottom: 0px;
+      border-top: 0px;
+      border-left: 0px;
+      background: #f4a971;
+      font-size: 34px;
+  }
+
+  .Rankings td {
+      width: 350px;
+      height: 60px;
+      padding: 10px;
+      background-color: white;
+      border-right: 1px solid #ccc;
+      border-bottom: 1px solid #ccc;
+  }
+
+body{
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(1fr, auto));
+   grid-template-rows: repeat(1, minmax(2fr, auto) 2, minmax(4fr, auto) 1,  minmax(2fr, auto));
+}
+
+nav{
+  text-align:center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  line-height: 30px;
+  }
+
+.li {
+  display: inline;
+  float: center;
+  font-size: 25px;
+  padding: 0px 1px;
+ }
+
+.Main{
+    text-decoration:none;
+    color: white;
+    background-color: #333;
+}
+li a.Player{
+      display:inline-block;
+      text-decoration:none;
+      color: white;
+      background-color: #333;
+      text-align: center;
+      padding: 20px 390px;
+
+      }
+li a.Team{
+       display:inline-block;
+       text-decoration:none;
+       color: white;
+       background-color: #333;
+       text-align: center;
+       padding: 20px 390px;
+
+       }
+li a.Ach{
+      display:inline-block;
+      text-decoration:none;
+      color: white;
+      background-color: #333;
+      text-align: center;
+      padding: 20px 390px;
+
+      }
+.Top{
+
+  top: 10%;
+  color : white;
+  text-align : center;
+  font-size : 80px;
+  font-weight : bold;
+  background-color:#df9977;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+
+}
+
+.LTSide{
+
+  float:left;
+  top: 39%;
+  left: 49%;
+  border: 1px solid white;
+  background-color:#f8d6b0;
+  grid-column: 1/ span 1;
+
+  grid-row: 2/ span 1;
+}
+
+.LBSide{
+
+  float: left;
+  bottom: 39%;
+  left: 49%;
+  border: 1px solid white;
+  background-color:#f8d6b0;
+  grid-column: 1/ span 1;
+
+  grid-row: 3/ span 1;
+}
+
+.RTSide{
+  margin: auto;
+  float: right;
+  bottom: 39%;
+  right: 49%;
+  float: right;
+  border: 1px solid white;
+  background-color:#f8d6b0;
+  grid-column: 2 / span 1;
+
+   grid-row: 2 / span 1;
+}
+
+.RBSide{
+  margin: auto;
+  float: right;
+  top: 39%;
+  right: 49%;
+  float: right;
+  border: 1px solid white;
+  background-color:#f8d6b0;
+  grid-column: 2 / span 1;
+
+  grid-row: 3 / span 1;
+}
+.Bottom{
+
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  background-color:#ffffff;
+  font-size: 30px;
+  
+}
+.RBSide{
+  background-color: #f8d6b0;
+  margin: auto;
 }
